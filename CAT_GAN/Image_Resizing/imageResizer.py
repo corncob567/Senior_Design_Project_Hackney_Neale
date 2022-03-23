@@ -13,7 +13,7 @@ import os
 TARGET_SIZE = (128,128)
 BLACK_AND_WHITE = False
 
-os.chdir('image_Resizing/')
+os.chdir('Image_Resizing/')
 
 for x in os.listdir('../catimages/test/cat/'):
     os.remove('../catimages/test/cat/'+x)
